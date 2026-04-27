@@ -1,0 +1,31 @@
+# Raspberry Pi 4 Dependencies
+# Install with: pip install -r requirements.txt
+
+# MIDI Input
+python-rtmidi>=1.4.9
+
+# I2C PWM Control (PCA9685)
+adafruit-pca9685>=1.4.1
+adafruit-circuitpython-servokit>=1.3.12
+
+# Serial Communication with EV3
+pyserial>=3.5
+
+# Numerical Computing
+numpy>=1.21.0
+
+# Image Processing (for expression generation)
+Pillow>=9.0.0
+
+# System/Threading
+threading
+time
+os
+json
+
+# Optional: Logging
+colorama>=0.4.4
+
+# Optional: Hardware PWM (if using GPIO PWM instead of PCA9685)
+# RPi.GPIO>=0.7.0
+# pigpio>=1.78
